@@ -1,0 +1,76 @@
+.view {
+    background-color: white;
+    color: rgb(75, 75, 75);
+    border:none;
+    float: right;
+    text-transform: uppercase;
+
+}
+
+.app {
+    text-align:left; 
+    width:95%;
+    position:relative;
+    left: 2%;
+    border:none;
+    height: 100px;
+}
+
+.applicants {
+    background-color: white;
+    color: rgb(75, 75, 75);
+    border:none;
+    position:relative;
+    text-transform: uppercase;
+}
+
+.prev {
+    background-color: white;
+    color: rgb(75, 75, 75);
+    border:none;
+    position:relative;
+    text-transform: uppercase;
+}
+
+.person{
+    width:91.5%;
+    position:relative;
+    left:3%;
+}
+.position{
+    width:87%;
+    position:relative;
+    left:5%;
+}
+
+.user {
+    position:relative;
+    width:25%;
+    left: 35%;
+    margin-top: 5%;
+}
+
+.logo {
+    float: left;
+    margin-left:2.5%;
+    width: 5%;
+}
+
+.uinput {
+    position:relative;
+    width: 50%;
+    left: 20%;
+}
+
+.ulabel {
+    position:relative;
+    left: 20%;
+}
+
+.resume{
+    position:relative;
+    color:black;
+    left: 44%;
+    font-size:150%;
+    text-decoration:none;
+}

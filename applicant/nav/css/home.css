@@ -1,0 +1,137 @@
+.box {
+    background-color: rgb(75, 75, 75);
+    height: 200px;
+    text-align: left;
+}
+
+.applied_box{
+    background-color: rgb(148, 205, 148);
+    color: black;
+    border-radius: 5px;
+    height: 100px;
+}
+h3{
+    position: relative;
+    left: 5%;
+    top: 30%;
+}
+
+h1{
+    margin-left: 3%;
+    color: white;
+    position: relative;
+    top: 55%;
+    font-size: 500%;
+}
+
+h2 {
+    margin-left: 3.5%;
+}
+
+h4{
+    font-size:200%;
+    float:left;
+    position: relative;
+    left: 2%;
+}
+
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    margin-left:2.5%;
+    width: 5%;
+}
+
+.dropdown { 
+    margin-top:.7%;   
+    display: inline-block;
+}
+
+.dropbtn {
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border-color: rgb(0, 0, 0);
+    min-width: 150px;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    z-index: 1;
+    right:0;
+}
+
+.content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.content a:hover {background-color: #ddd;}
+
+.dropdown:hover .content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #5e8cff;}
+
+.pos {
+    text-align:left; 
+    width:85%;
+    position:relative;
+    border:none;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left:70px;
+    padding-top:28px;
+    position: relative;
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top:0;
+    width: 0%;
+
+    transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+nav a {
+    color: rgb(94, 94, 94);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.said {
+    width: 20%;
+    position: relative;
+    left: 38%;
+}
