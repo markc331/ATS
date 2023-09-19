@@ -24,14 +24,6 @@
     text-transform: uppercase;
 }
 
-.prev {
-    background-color: white;
-    color: rgb(75, 75, 75);
-    border:none;
-    position:relative;
-    text-transform: uppercase;
-}
-
 .person{
     width:91.5%;
     position:relative;

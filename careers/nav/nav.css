@@ -1,0 +1,399 @@
+html, body{
+    margin: 0;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.nav_container {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    z-index: 2;
+}
+
+.menu {
+    position: relative;
+    top: 11%;
+}
+
+.logo {
+    float: left;
+    margin-left:2.5%;
+    width: 5%;
+}
+
+.back {
+    position: absolute;
+    left: 65%;
+    height: 50%;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left:70px;
+    padding-top:28px;
+    position: relative;
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top:0;
+    width: 0%;
+
+    transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+nav a {
+    color: rgb(94, 94, 94);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.box {
+    background-color: rgb(75, 75, 75);
+    height:500px;
+    text-align: left;
+}
+
+h1{
+    margin-left: 3%;
+    color: white;
+    position: relative;
+    top: 70%;
+    font-size: 500%;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h2 {
+    margin-left: 3.5%;
+}
+
+.pos_box {
+    width:65%;
+    height: 200px;
+    position: relative;
+    left: 30%;
+}
+
+.pos {
+    width: 100%;
+    height: 200px;
+    position:relative;
+    border:none;
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+h3 {
+    position: absolute;
+    margin-top: 0;
+    font-size: 230%;
+    z-index: 1;
+
+}
+
+.pid {
+    position: absolute;
+    margin-top: 0;
+    right: 0;
+    z-index: 1;
+}
+.date {
+    position: absolute;
+    margin-top:14%;
+    right: 0;
+    z-index: 1;
+}
+
+.desc {
+    position: absolute;
+    margin-top: 10%;
+    font-size: 90%;
+    left: 1%;
+    z-index: 1;
+}
+
+h4 {
+    position: absolute;
+    font-size: 100%;
+    margin-top: 5%;
+    left: 1%;
+    z-index: 1;
+    color: grey;
+}
+
+hr {
+    width: 65%;
+    position: relative;
+    left: 12.5%;
+}
+
+.prev {
+    background-color: white;
+    color: rgb(75, 75, 75);
+    border:none;
+    position:relative;
+    text-transform: uppercase;
+}
+
+.details {
+    position: relative;
+    left: 1%;
+}
+
+.papp{
+    top: 100px;
+    width: 60%;
+    position: relative;
+    left: 18%;
+    border: none;
+}
+
+.dloc {
+    position: absolute;
+    font-size: 130%;
+    left: 1.29%;
+    margin-top: 0;
+}
+
+.dpid {
+    position: absolute;
+    right: 0;
+    margin-top: 0;
+}
+
+.dsal {
+    position: absolute;
+    left: 1.29%;
+    margin-top: 3px;
+}
+
+.dsched {
+    position: absolute;
+    left: 1.29%;
+    margin-top: 0;
+}
+
+.ddesc {
+    position: absolute;
+    left: 1.29%;
+    margin-top: 15px;
+}
+
+.ben {
+    position: absolute;
+    left: 1.29%;
+    margin-top:50px;
+}
+
+.blist {
+    position: absolute;
+    left: 1.29%;
+    margin-top:75px;  
+}
+
+.req {
+    position: absolute;
+    left: 1.29%;
+    margin-top:125px;
+}
+
+.reqlist {
+    position: absolute;
+    left: 1.29%;
+    margin-top:150px;  
+}
+
+.qual {
+    position: absolute;
+    left: 1.29%;
+    margin-top:200px;
+}
+
+.quallist {
+    position: absolute;
+    left: 1.29%;
+    margin-top:225px;  
+}
+
+.skills {
+    position: absolute;
+    left: 1.29%;
+    margin-top:300px;
+}
+
+.slist {
+    position: absolute;
+    left: 1.29%;
+    margin-top:325px;  
+}
+
+.resp {
+    position: absolute;
+    left: 1.29%;
+    margin-top:375px;
+}
+
+.resplist {
+    position: absolute;
+    left: 1.29%;
+    margin-top:400px;  
+}
+
+.travel {
+    position: absolute;
+    left: 1.29%;
+    margin-top:450px;
+}
+
+.tlist {
+    position: absolute;
+    left: 1.29%;
+    margin-top:475px;  
+}
+
+.clear {
+    position: absolute;
+    left: 1.29%;
+    margin-top:525px;
+}
+
+.clist {
+    position: absolute;
+    left: 1.29%;
+    margin-top:550px;  
+}
+
+.phys {
+    position: absolute;
+    left: 1.29%;
+    margin-top:600px;
+}
+
+.physlist {
+    position: absolute;
+    left: 1.29%;
+    margin-top:625px;  
+}
+
+.apply {
+    float: right;
+    position: relative;
+    top: 20px;
+}
+
+.app {
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    min-width: 150px;
+    right: 15%;
+    position: relative;
+    border-radius: 5px;
+    background-color: rgb(0, 213, 255);
+}
+
+input[type=text], textarea{
+    position: relative;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 80%;
+    padding: 5px;
+    font-size: 80%;
+    left: 10%;
+}
+::placeholder {
+    font-size: 150%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.find {
+    width: 138px;
+    text-transform: uppercase;
+    border: none;
+    height: 25px;
+    border-radius: 0;
+    background-color: rgb(1, 170, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.person {
+    position: relative;
+    margin-top: 50px;
+    width: 81%;
+    height: 50px;
+    left: 10%;
+    text-align: left;
+}
+
+.block{
+    position: relative;
+    height: 150px;
+    background-color: black;
+    color: white;
+
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.applied_box {
+    position: relative;
+    width: 95%;
+    height: 50px;
+    background-color: rgb(46, 157, 46);
+    top:99%;
+    left: 2.5%;
+    border-radius: 10px;
+}
+
+.success {
+    position: relative;
+    top: 35%;
+    left: 5%;
+}
+
+.resume { 
+    position: relative;
+    left: 46%;
+}
+
+.status {
+    position: relative;
+    margin-top: 0;
+    width: 85%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 150%;
+    left: 7.5%;
+    text-align: center;
+    border-radius: 20px ;
+}

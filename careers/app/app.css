@@ -1,0 +1,265 @@
+html, body{
+    margin: 0;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+body { 
+    margin-top:0;
+}
+
+.resume_file {
+    position: relative;
+    top: 120px;
+}
+
+.nav_container {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    z-index: 2;
+}
+
+.menu {
+    position: relative;
+    top: 11%;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left:70px;
+    padding-top:28px;
+    position: relative;
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top:0;
+    width: 0%;
+
+    transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+nav a {
+    color: rgb(94, 94, 94);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container{
+    width: 96%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.logo {
+    float: left;
+    margin-left:2.5%;
+    width: 5%;
+}
+
+.title {
+    position: relative;
+    margin-top: 6px;
+    font-size: 400%;
+}
+
+.newpos {
+    position: relative;
+    width:90%;
+    left: 5%;
+}
+
+.section{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.right{
+    float: left;
+    margin-top: 2px;
+}
+
+
+.box_label{
+    margin-left: 25%;
+    height:100px;
+}
+
+h2{
+    float: left;
+    width: 50%;
+}
+
+input[type=file] {
+    width: 100%;
+    height: 350px;
+    max-width: 95%;
+    color: #444;
+    padding: 5px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #555;
+    background: #e7e7e7;
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    margin-left: 30%;
+    margin-top: 28%;
+    border: none;
+    background: #084cdf;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+  
+input[type=file]::file-selector-button:hover {
+    background: #0d45a5;
+}
+
+.btn {
+    float:right;
+}
+
+
+.nav{
+    padding: 30px 0;
+    position: fixed;
+    left: 0;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+.nav-item{
+    padding: 30px 0;
+    display: flex;
+    margin-bottom: var(--nav-gap);
+}
+
+.nav-link:hover ~ .nav-label{
+    font-weight: bold;
+    transform: scale(1.5);
+}
+
+.nav-label{
+    color: #000000;
+    transition: transform 0.2s;
+    margin-left: 60px;
+    text-align: center;
+}
+
+.nav-link{
+    background: rgba(0,0,0,0.3);
+    border-radius:50%;
+    height: 15px;
+    width: 15px;
+    margin-left: 35px;
+    transition: transform 0.1s;
+}
+.nav-link-selected{
+    background: #000000;
+    transform: scale(1.5);
+}
+
+.nav-label-selected{
+    font-weight: bold;
+    transform: scale(1.5);
+}
+
+.block{
+    position: relative;
+    height: 150px;
+    background-color: black;
+    color: white;
+
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.submit {
+    position: relative;
+    left: 29%;
+    background-color: rgb(94, 191, 255);
+    height: 50px;
+    width: 200px;
+    font-size: 200%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;;
+}
+
+.next {
+    background-color: rgb(5, 155, 255);
+    height: 50px;
+    width: 200px;
+    font-size: 200%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+input[type=text], textarea{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 95%;
+    padding: 5px;
+    font-size: 80%;
+    height: 30px;
+}
+
+input[type=url]{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    font-size: 100%;
+}
+
+.line {
+    float: left;
+}
+
+.option {
+    position: relative;
+    float: left;
+    margin-top: 17px;
+    left: 10px;
+}
+
+.question {
+    text-decoration: bold;
+}
+
+.dlist {
+    position: relative;
+    left: 5%;
+}

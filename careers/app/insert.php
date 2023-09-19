@@ -69,7 +69,7 @@
         $conn->execute_query($web);
         $wcount++;
     }while($wcount <= $scount);
-    $success = urlencode("Application Submitted!<br>Application ID:");
+    $success = urlencode("Application Submitted! Application ID:");
     $aid = urlencode($aid);
-    header("Location: http://localhost:3000/applicant/nav/home.php?success=".$success.$aid);
+    header("Location: http://localhost:3000/careers/nav/home.php?success=".$success.$aid);
 ?>

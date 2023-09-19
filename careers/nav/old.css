@@ -10,6 +10,7 @@
     border-radius: 5px;
     height: 100px;
 }
+
 h3{
     position: relative;
     left: 5%;
@@ -45,7 +46,7 @@ header::after {
 .logo {
     float: left;
     margin-left:2.5%;
-    width: 5%;
+    width: 8%;
 }
 
 .dropdown { 
